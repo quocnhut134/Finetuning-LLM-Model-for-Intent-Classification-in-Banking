@@ -1,0 +1,9 @@
+transformers
+datasets
+torch
+scikit-learn
+jupyterlab
+matplotlib
+seaborn
+sentencepiece
+python-dotenv

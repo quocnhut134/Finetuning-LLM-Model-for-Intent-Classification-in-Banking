@@ -1,0 +1,66 @@
+{
+  "builder_name": "parquet",
+  "citation": "",
+  "config_name": "default",
+  "dataset_name": "banking77",
+  "dataset_size": 1246329,
+  "description": "",
+  "download_checksums": {
+    "hf://datasets/mteb/banking77@18072d2685ea682290f7b8924d94c62acc19c0b2/data/train-00000-of-00001.parquet": {
+      "num_bytes": 294377,
+      "checksum": null
+    },
+    "hf://datasets/mteb/banking77@18072d2685ea682290f7b8924d94c62acc19c0b2/data/test-00000-of-00001.parquet": {
+      "num_bytes": 91367,
+      "checksum": null
+    }
+  },
+  "download_size": 385744,
+  "features": {
+    "labels": {
+      "dtype": "int64",
+      "_type": "Value"
+    },
+    "label_text": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "input_ids": {
+      "feature": {
+        "dtype": "int32",
+        "_type": "Value"
+      },
+      "_type": "List"
+    },
+    "attention_mask": {
+      "feature": {
+        "dtype": "int8",
+        "_type": "Value"
+      },
+      "_type": "List"
+    }
+  },
+  "homepage": "",
+  "license": "",
+  "size_in_bytes": 1632073,
+  "splits": {
+    "train": {
+      "name": "train",
+      "num_bytes": 966955,
+      "num_examples": 9993,
+      "dataset_name": "banking77"
+    },
+    "test": {
+      "name": "test",
+      "num_bytes": 279374,
+      "num_examples": 3076,
+      "dataset_name": "banking77"
+    }
+  },
+  "version": {
+    "version_str": "0.0.0",
+    "major": 0,
+    "minor": 0,
+    "patch": 0
+  }
+}

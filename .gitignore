@@ -1,0 +1,4 @@
+NLP/
+*.log
+.env
+__pycache__/

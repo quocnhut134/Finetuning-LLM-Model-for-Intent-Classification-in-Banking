@@ -40,6 +40,8 @@ def main(args):
     
     trainer.train()
     
+    trainer.save_model(output_dir)
+    
     print(f"Best model is saved at: {output_dir}")
     
     tokenizer = AutoTokenizer.from_pretrained(args.model_name)

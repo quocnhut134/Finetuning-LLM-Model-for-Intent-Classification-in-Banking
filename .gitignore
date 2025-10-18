@@ -3,3 +3,4 @@ NLP/
 .env
 __pycache__/
 saved_models/
+data/

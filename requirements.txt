@@ -10,3 +10,4 @@ python-dotenv
 evaluate
 pandas
 tqdm
+streamlit

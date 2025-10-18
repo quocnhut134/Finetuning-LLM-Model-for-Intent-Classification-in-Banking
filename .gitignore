@@ -2,3 +2,4 @@ NLP/
 *.log
 .env
 __pycache__/
+saved_models/

@@ -7,3 +7,6 @@ matplotlib
 seaborn
 sentencepiece
 python-dotenv
+evaluate
+pandas
+tqdm

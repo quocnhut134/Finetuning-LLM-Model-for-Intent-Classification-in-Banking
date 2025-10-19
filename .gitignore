@@ -2,5 +2,5 @@ NLP/
 *.log
 .env
 __pycache__/
-saved_models/
+saved_models/evaluation_results/
 data/

@@ -36,7 +36,13 @@ def run_evaluation(model_dir: str, processed_data_dir: str):
         test_dataset = test_dataset.remove_columns(["label_text"])
 
     raw_datasets = load_dataset("mteb/banking77")
-    label_names = sorted(list(set(raw_datasets['train']['label_text'])))
+    raw_train = raw_datasets['train']
+    mapping_df = pd.DataFrame({
+        'label': raw_train['label'],
+        'label_text': raw_train['label_text']
+    }).drop_duplicates().set_index('label').sort_index()
+    
+    label_names = mapping_df['label_text'].tolist()
         
     # Prediction
     test_dataloader = DataLoader(

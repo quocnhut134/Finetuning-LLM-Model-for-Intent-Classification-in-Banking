@@ -6,3 +6,4 @@ evaluation_results/
 data/
 1925_rows_dataset.csv
 *.ps1
+logs/

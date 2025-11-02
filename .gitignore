@@ -2,6 +2,6 @@ NLP/
 *.log
 .env
 __pycache__/
-saved_models/distilbert_distilbert-base-uncased-finetuned-banking77/evaluation_results/
+evaluation_results/
 data/
 1925_rows_dataset.csv

@@ -4,10 +4,8 @@ NLP/
 __pycache__/
 evaluation_results/
 data/
-1925_rows_dataset.csv
 *.ps1
 logs/
 FacebookAI_roberta-base-finetuned-banking77/
 google-bert_bert-base-uncased-finetuned-banking77/
 microsoft_deberta-v3-base-finetuned-banking77/
-new_test/

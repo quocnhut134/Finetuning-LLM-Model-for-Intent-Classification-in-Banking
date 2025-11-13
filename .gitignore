@@ -11,3 +11,4 @@ google-bert_bert-base-uncased-finetuned-banking77/
 microsoft_deberta-v3-base-finetuned-banking77/
 microsoft_deberta-v3-small-finetuned-banking77/
 classic_ml/
+saved_models/

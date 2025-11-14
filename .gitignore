@@ -4,7 +4,6 @@ NLP/
 __pycache__/
 evaluation_results/
 data/
-*.ps1
 logs/
 classic_ml/
 saved_models/

@@ -1,8 +1,8 @@
-DEFAULT_MODEL_NAME = "distilbert/distilbert-base-uncased"
-PROCESSED_DATA_DIR_TEMPLATE = "./data/processed/banking77-tokenized-{model_name_safe}"
-OUTPUT_DIR_TEMPLATE = "saved_models/{model_name_safe}-finetuned-banking77"
+default_model_name = "distilbert/distilbert-base-uncased"
+processed_data_dir_template = "./data/processed/banking77-tokenized-{model_name_safe}"
+output_dir_template = "saved_models/{model_name_safe}-finetuned-banking77"
 
-TRAINING_ARGS = {
+training_args = {
     "num_train_epochs": 5,
     "learning_rate": 2e-5,
     "per_device_train_batch_size": 16,
@@ -17,4 +17,4 @@ TRAINING_ARGS = {
     "logging_steps": 100,
 }
 
-EARLY_STOPPING_PATIENCE = 3
+early_stopping_patience = 3

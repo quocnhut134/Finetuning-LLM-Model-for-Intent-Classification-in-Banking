@@ -8,3 +8,4 @@ data/
 logs/
 classic_ml/
 saved_models/
+eval_new_test.ipynb

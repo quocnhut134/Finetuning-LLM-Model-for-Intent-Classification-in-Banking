@@ -1,0 +1,17 @@
+transformers
+datasets
+torch
+scikit-learn
+jupyterlab
+matplotlib
+seaborn
+sentencepiece
+python-dotenv
+evaluate
+pandas
+tqdm
+streamlit
+selenium==4.31.0 
+webdriver-manager==4.0.2
+numpy
+joblib
